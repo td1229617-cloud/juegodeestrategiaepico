@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io(https://juegodeestrategiaepico.onrender.com);
 
 let codigo = "";
 let nombre = prompt("Tu nombre:");
