@@ -1,0 +1,31 @@
+<body>
+
+<div id="lobby">
+  <h1>🌍 Conquista Mundial</h1>
+  <button onclick="crearSala()">Crear Sala</button>
+  <button onclick="unirseSala()">Unirse</button>
+</div>
+
+<div id="game" style="display:none">
+
+  <div id="ui">
+    <button onclick="modo='ataque'">💣 Atacar</button>
+    <div id="info"></div>
+    <div id="ranking"></div>
+  </div>
+
+  <div id="chatBox">
+    <div id="chat"></div>
+    <input id="chatInput">
+    <button onclick="enviarMensaje()">Enviar</button>
+  </div>
+
+  <div id="map"></div>
+
+</div>
+
+<script src="client.js"></script>
+<script src="voice.js"></script>
+<script src="ui.js"></script>
+
+</body>
